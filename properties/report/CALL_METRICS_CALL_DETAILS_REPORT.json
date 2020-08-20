@@ -1,0 +1,538 @@
+{
+  "streams": [   
+     {
+      "stream": "CALL_METRICS_CALL_DETAILS_REPORT",
+      "tap_stream_id": "CALL_METRICS_CALL_DETAILS_REPORT",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "currency"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AccountCurrencyCode",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "account"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AccountDescriptiveName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timeZone"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AccountTimeZone",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroupID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroup"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroupState"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupStatus",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "durationSeconds"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallDuration",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "endTime"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallEndTime",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "callerCountryCode"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallerCountryCallingCode",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "callerAreaCode"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallerNationalDesignatedCode",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "startTime"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallStartTime",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "status"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallStatus",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "callSource"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallTrackingDisplayLocation",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "callType"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CallType",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaignID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaign"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaignState"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignStatus",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "clientName"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CustomerDescriptiveName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "day"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Date",
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "dayOfWeek"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "DayOfWeek",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "customerID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "ExternalCustomerId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "hourOfDay"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "HourOfDay",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "month"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Month",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "monthOfYear"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "MonthOfYear",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "quarter"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Quarter",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "week"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Week",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "year"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Year",
+            "inclusion": "available"
+          }
+        }
+      ],
+      "schema": {
+        "type": "object",
+        "is_report": "true",
+        "properties": {
+          "currency": {
+            "description": "Currency",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "account": {
+            "description": "Account",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "timeZone": {
+            "description": "Time zone",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adGroupID": {
+            "description": "Ad group ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "adGroup": {
+            "description": "Ad group",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adGroupState": {
+            "description": "Ad group state",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "durationSeconds": {
+            "description": "Duration (seconds)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "endTime": {
+            "description": "End time",
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "callerCountryCode": {
+            "description": "Caller country code",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "callerAreaCode": {
+            "description": "Caller area code",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "startTime": {
+            "description": "Start time",
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "status": {
+            "description": "Status",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "callSource": {
+            "description": "Call source",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "callType": {
+            "description": "Call type",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "campaignID": {
+            "description": "Campaign ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaign": {
+            "description": "Campaign",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "campaignState": {
+            "description": "Campaign state",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "clientName": {
+            "description": "Client name",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "day": {
+            "description": "Day",
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "dayOfWeek": {
+            "description": "Day of week",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "customerID": {
+            "description": "Customer ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "hourOfDay": {
+            "description": "Hour of day",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "month": {
+            "description": "Month",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "monthOfYear": {
+            "description": "Month of Year",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "quarter": {
+            "description": "Quarter",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "week": {
+            "description": "Week",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "year": {
+            "description": "Year",
+            "type": [
+              "null",
+              "integer"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

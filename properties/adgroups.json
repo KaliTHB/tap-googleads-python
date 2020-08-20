@@ -1,0 +1,666 @@
+{
+  "streams": [ 
+  {
+      "stream": "ad_groups",
+      "tap_stream_id": "ad_groups",
+      "schema": {
+        "additionalProperties": false,
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "campaignName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaignId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "baseCampaignId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adGroupType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "settings": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "details": {
+                  "type": [
+                    "null",
+                    "array"
+                  ],
+                  "items": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "targetAll": {
+                        "type": [
+                          "null",
+                          "integer"
+                        ]
+                      },
+                      "criterionTypeGroup": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "Setting.Type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "optIn": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          },
+          "biddingStrategyConfiguration": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "bids": {
+                "type": [
+                  "null",
+                  "array"
+                ],
+                "items": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "bid": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "ComparableValue.Type": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "microAmount": {
+                          "type": [
+                            "null",
+                            "integer"
+                          ]
+                        }
+                      }
+                    },
+                    "bidSource": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "Bids.Type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "baseAdGroupId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "labels": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                },
+                "name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "attribute": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "backgroundColor": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "LabelAttribute.Type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                },
+                "Label.Type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "status": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          },
+          "urlCustomParameters": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "parameters": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "key": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "isRemove": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "doReplace": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": []
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "status"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "name"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "Label.Type"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "id"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "attribute"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "attribute",
+            "properties",
+            "backgroundColor"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "labels",
+            "items",
+            "properties",
+            "attribute",
+            "properties",
+            "LabelAttribute.Type"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "name"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "campaignId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "details"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "details",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "details",
+            "items",
+            "properties",
+            "targetAll"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "details",
+            "items",
+            "properties",
+            "criterionTypeGroup"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "Setting.Type"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "settings",
+            "items",
+            "properties",
+            "optIn"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "automatic"
+          },
+          "breadcrumb": [
+            "properties",
+            "id"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "baseCampaignId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items",
+            "properties",
+            "Bids.Type"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items",
+            "properties",
+            "bidSource"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items",
+            "properties",
+            "bid"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items",
+            "properties",
+            "bid",
+            "properties",
+            "microAmount"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "biddingStrategyConfiguration",
+            "properties",
+            "bids",
+            "items",
+            "properties",
+            "bid",
+            "properties",
+            "ComparableValue.Type"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "campaignName"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "status"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "baseAdGroupId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "adGroupType"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "urlCustomParameters"
+          ]
+        }
+      ]
+    }
+  ]
+}

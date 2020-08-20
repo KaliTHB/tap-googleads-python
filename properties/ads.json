@@ -1,0 +1,379 @@
+{
+  "streams": [ 
+   {
+      "stream": "ads",
+      "tap_stream_id": "ads",
+      "schema": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "baseAdGroupId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "policySummary": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "reviewState": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denormalizedStatus": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "policyTopicEntries": {
+                "type": [
+                  "null",
+                  "array"
+                ],
+                "items": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "policyTopicName": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "policyTopicEvidences": {
+                      "type": [
+                        "null",
+                        "array"
+                      ],
+                      "items": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "policyTopicEvidenceType": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "evidenceTextList": {
+                            "type": [
+                              "null",
+                              "array"
+                            ],
+                            "items": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "policyTopicEntryType": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "policyTopicId": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "policyTopicHelpCenterUrl": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                }
+              },
+              "combinedApprovalStatus": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          },
+          "baseCampaignId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "adGroupId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "trademarkDisapproved": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          }
+        }
+      },
+      "metadata": [
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": []
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "trademarkDisapproved"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "denormalizedStatus"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "reviewState"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "combinedApprovalStatus"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicEntryType"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicName"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicHelpCenterUrl"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicEvidences"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicEvidences",
+            "items"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicEvidences",
+            "items",
+            "properties",
+            "evidenceTextList"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "policySummary",
+            "properties",
+            "policyTopicEntries",
+            "items",
+            "properties",
+            "policyTopicEvidences",
+            "items",
+            "properties",
+            "policyTopicEvidenceType"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "baseCampaignId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "adGroupId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "status"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available"
+          },
+          "breadcrumb": [
+            "properties",
+            "baseAdGroupId"
+          ]
+        }
+      ]
+    }
+  ]
+}

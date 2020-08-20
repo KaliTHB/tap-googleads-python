@@ -1,0 +1,745 @@
+{
+  "streams": [   
+      {
+      "stream": "CLICK_PERFORMANCE_REPORT",
+      "tap_stream_id": "CLICK_PERFORMANCE_REPORT",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "page"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Page",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "account"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AccountDescriptiveName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adType"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdFormat",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroupID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroup"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adGroupState"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdGroupStatus",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "network"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdNetworkType1",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "networkWithSearchPartners"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdNetworkType2",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adVariationControlTrialArmID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdVariationControlTrialArmId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adVariationTreatmentTrialArmID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdVariationTreatmentTrialArmId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adVariationTrialID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AdVariationTrialId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cityLocationOfInterest"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AoiCityCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "countryTerritoryLocationOfInterest"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AoiCountryCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "metroAreaLocationOfInterest"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AoiMetroCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mostSpecificLocationTargetLocationOfInterest"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AoiMostSpecificTargetId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regionLocationOfInterest"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "AoiRegionCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaignID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaignLocationTarget"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignLocationTargetId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaign"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignName",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaignState"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CampaignStatus",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "clicks"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Clicks",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "clickType"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "ClickType",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "adID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CreativeId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "keywordID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "keywordPlacement"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "CriteriaParameters",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "day"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Date",
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "device"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Device",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "customerID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "ExternalCustomerId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "googleClickID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "GclId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "matchType"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "KeywordMatchType",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cityPhysicalLocation"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "LopCityCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "countryTerritoryPhysicalLocation"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "LopCountryCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "metroAreaPhysicalLocation"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "LopMetroCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mostSpecificLocationTargetPhysicalLocation"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "LopMostSpecificTargetId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regionPhysicalLocation"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "LopRegionCriteriaId",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "monthOfYear"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "MonthOfYear",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "topVsOther"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "Slot",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "userListID"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "adwords.fieldName": "UserListId",
+            "inclusion": "available"
+          }
+        }
+      ],
+      "schema": {
+        "type": "object",
+        "is_report": "true",
+        "properties": {
+          "page": {
+            "description": "Page",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "account": {
+            "description": "Account",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adType": {
+            "description": "Ad type",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adGroupID": {
+            "description": "Ad group ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "adGroup": {
+            "description": "Ad group",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adGroupState": {
+            "description": "Ad group state",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "network": {
+            "description": "Network",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "networkWithSearchPartners": {
+            "description": "Network (with search partners)",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adVariationControlTrialArmID": {
+            "description": "Ad Variation Control Trial Arm ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "adVariationTreatmentTrialArmID": {
+            "description": "Ad Variation Treatment Trial Arm ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "adVariationTrialID": {
+            "description": "Ad Variation Trial ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "cityLocationOfInterest": {
+            "description": "City (Location of interest)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "countryTerritoryLocationOfInterest": {
+            "description": "Country/Territory (Location of interest)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "metroAreaLocationOfInterest": {
+            "description": "Metro area (Location of interest)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "mostSpecificLocationTargetLocationOfInterest": {
+            "description": "Most specific location target (Location of interest)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "regionLocationOfInterest": {
+            "description": "Region (Location of interest)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaignID": {
+            "description": "Campaign ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaignLocationTarget": {
+            "description": "Campaign location target",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaign": {
+            "description": "Campaign",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "campaignState": {
+            "description": "Campaign state",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "clicks": {
+            "description": "Clicks",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "clickType": {
+            "description": "Click type",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adID": {
+            "description": "Ad ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "keywordID": {
+            "description": "Keyword ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "keywordPlacement": {
+            "description": "Keyword / Placement",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "day": {
+            "description": "Day",
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "device": {
+            "description": "Device",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "customerID": {
+            "description": "Customer ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "googleClickID": {
+            "description": "Google Click ID",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "matchType": {
+            "description": "Match type",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "cityPhysicalLocation": {
+            "description": "City (Physical location)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "countryTerritoryPhysicalLocation": {
+            "description": "Country/Territory (Physical location)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "metroAreaPhysicalLocation": {
+            "description": "Metro area (Physical location)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "mostSpecificLocationTargetPhysicalLocation": {
+            "description": "Most specific location target (Physical location)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "regionPhysicalLocation": {
+            "description": "Region (Physical location)",
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "monthOfYear": {
+            "description": "Month of Year",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "topVsOther": {
+            "description": "Top vs. Other",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "userListID": {
+            "description": "User List ID",
+            "type": [
+              "null",
+              "integer"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "streams": [ 
+   {
+      "stream": "accounts",
+      "tap_stream_id": "accounts",
+      "schema": {
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "canManageClients": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "customerId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "testAccount": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "dateTimeZone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "currencyCode": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ]
+      },
+      "metadata": [
+
+        {
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          },
+          "breadcrumb": []
+        },
+        {
+          "metadata": {
+            "inclusion": "available" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "name"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "dateTimeZone"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "automatic" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "customerId"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "canManageClients"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "testAccount"
+          ]
+        },
+        {
+          "metadata": {
+            "inclusion": "available" ,
+            "selected": true
+          },
+          "breadcrumb": [
+            "properties",
+            "currencyCode"
+          ]
+        }
+      ]
+    }
+  ]
+}
